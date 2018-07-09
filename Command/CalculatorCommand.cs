@@ -9,7 +9,7 @@ namespace Command
 		private double operand;
 		private char @operator;
 		private Calculator calculator;
-		private IMomento backup;
+		private IMemento backup;
 
 		public CalculatorCommand(Calculator calculator, double operand, char @operator)
 		{

@@ -7,7 +7,7 @@ namespace Momento
 	{
 		static void Main(string[] args)
 		{
-			var momentos = new List<IMomento>();
+			var momentos = new List<IMemento>();
 
 			Complex c = new Complex() { R = 3, I = 3 };
 

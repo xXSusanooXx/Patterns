@@ -26,12 +26,12 @@ namespace Command
 			}
 		}
 
-		public IMomento GetState()
+		public IMemento GetState()
 		{
 			return new CalculatorMomento(this);
 		}
 
-		private class CalculatorMomento : IMomento
+		private class CalculatorMomento : IMemento
 		{
 			private double current;
 			private Calculator calculator;

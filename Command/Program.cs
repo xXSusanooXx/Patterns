@@ -17,7 +17,7 @@ namespace Command
 				new CalculatorCommand(calculator, 10, '+'),
 				new CalculatorCommand(calculator, 4, '*'),
 				new CalculatorCommand(calculator, 30, '-'),
-				new CalculatorCommand(calculator, 0, '/'),
+				new CalculatorCommand(calculator, 4, '/'),
 				new CalculatorCommand(calculator, 20, '-')
 			};
 

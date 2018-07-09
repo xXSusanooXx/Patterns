@@ -1,17 +1,17 @@
 ﻿namespace Momento
 {
-	public class Complex : IMomentable
+	public class Complex : IMementable
 	{
 		public double R { get; set; }
 
 		public double I { get; set; }
 
-		public IMomento GetMomento()
+		public IMemento GetMomento()
 		{
-			return new ComplexMomento(this);
+			return new ComplexMemento(this);
 		}
 
-		public class ComplexMomento : IMomento
+		public class ComplexMemento : IMemento
 		{
 			private readonly Complex backup;
 
@@ -19,7 +19,7 @@
 
 			public double I { get; private set; }
 
-			public ComplexMomento(Complex complex)
+			public ComplexMemento(Complex complex)
 			{
 				this.backup = complex;
 				this.R = complex.R;

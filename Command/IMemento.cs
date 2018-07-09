@@ -1,6 +1,6 @@
 ﻿namespace Command
 {
-	public interface IMomento
+	public interface IMemento
 	{
 		void RestoreState();
 	}

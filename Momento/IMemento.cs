@@ -1,6 +1,6 @@
 ﻿namespace Momento
 {
-	public interface IMomento
+	public interface IMemento
 	{
 		void RestoreState();
 	}
