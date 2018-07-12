@@ -6,7 +6,7 @@
 
 		public double I { get; set; }
 
-		public IMemento GetMomento()
+		public IMemento GetMemento()
 		{
 			return new ComplexMemento(this);
 		}

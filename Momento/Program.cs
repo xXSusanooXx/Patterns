@@ -11,17 +11,17 @@ namespace Momento
 
 			Complex c = new Complex() { R = 3, I = 3 };
 
-			momentos.Add(c.GetMomento());
+			momentos.Add(c.GetMemento());
 
 			c.R = 5;
 			c.I = 2;
 
-			momentos.Add(c.GetMomento());
+			momentos.Add(c.GetMemento());
 
 			c.R = 4;
 			c.I = 6;
 
-			momentos.Add(c.GetMomento());
+			momentos.Add(c.GetMemento());
 
 			foreach (var momento in momentos)
 			{

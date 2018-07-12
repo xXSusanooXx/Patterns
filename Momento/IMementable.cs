@@ -2,6 +2,6 @@
 {
 	public interface IMementable
 	{
-		IMemento GetMomento();
+		IMemento GetMemento();
 	}
 }
